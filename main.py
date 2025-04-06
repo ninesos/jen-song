@@ -32,7 +32,7 @@ async def on_message(message):
         # หา Channel ที่กำหนด
         channel = client.get_channel(TARGET_CHANNEL_ID)
         if channel:
-            await channel.send(f'https://gift.truemoney.com/compaign/?v={random_string}')
+            await channel.send(f'https://gift.truemoney.com/campaign/?v={random_string}')
         else:
             print("ไม่พบช่องที่กำหนด!")
 
