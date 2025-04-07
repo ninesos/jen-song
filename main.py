@@ -6,7 +6,7 @@ from flask import Flask
 import threading
 
 TOKEN = os.getenv('TOKEN')
-TARGET_CHANNEL_ID = 123456789012345678
+TARGET_CHANNEL_ID = 1358457657823989941
 
 intents = discord.Intents.default()
 intents.message_content = True
